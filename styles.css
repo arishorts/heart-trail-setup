@@ -15,17 +15,17 @@ span {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  animation: animate 6s linear;
+  animation: animate 3.01s linear;
 }
 
 @keyframes animate {
   0% {
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%, -50%) rotate(0deg);
     opacity: 0.6;
     filter: hue-rotate(0);
   }
   100% {
-    transform: translate(-50%, -5000%);
+    transform: translate(-50%, -5000%) rotate(1000deg);
     opacity: 0;
     filter: hue-rotate(720deg);
   }

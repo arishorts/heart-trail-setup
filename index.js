@@ -13,5 +13,5 @@ bodyEl.addEventListener("mousemove", (event) => {
   //by opening in the browsert devtools we can see all the spans being created
   setTimeout(() => {
     spanEl.remove();
-  }, 6000);
+  }, 3000);
 });
